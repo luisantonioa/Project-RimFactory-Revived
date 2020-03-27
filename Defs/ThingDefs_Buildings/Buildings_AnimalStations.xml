@@ -12,7 +12,7 @@
     <defName>Shearer</defName>
     <label>shearer</label>
     <graphicData>
-      <texPath>Farm/Shearer</texPath>
+      <texPath>Milker</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(2,2)</drawSize>
       <shaderType>CutoutComplex</shaderType>
@@ -47,17 +47,16 @@
       <li Class="CompProperties_Power">
         <compClass>CompPowerTrader</compClass>
         <basePowerConsumption>750</basePowerConsumption>
+        
       </li>
       <li Class="CompProperties_Flickable"/>
       <li Class="CompProperties_Breakdownable"/>
-      <li>
-        <compClass>ProjectRimFactory.Common.CompPRFHelp</compClass>
-      </li>
+      <li><compClass>ProjectRimFactory.Common.CompPRFHelp</compClass></li>
     </comps>
     <rotatable>true</rotatable>
     <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
     <drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
-    <designationCategory>Industrial</designationCategory>
+    <designationCategory>Automation</designationCategory>
     <building>
       <ai_chillDestination>false</ai_chillDestination>
       <fixedStorageSettings>
@@ -87,8 +86,6 @@
     </researchPrerequisites>
     <surfaceType>Item</surfaceType>
   </ThingDef>
-
-
   <ThingDef>
     <category>Building</category>
     <thingClass>ProjectRimFactory.AnimalStation.Building_Milker</thingClass>
@@ -101,7 +98,7 @@
     <defName>Milker</defName>
     <label>milker</label>
     <graphicData>
-      <texPath>Farm/Milker</texPath>
+      <texPath>Milker</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(2,2)</drawSize>
       <shaderType>CutoutComplex</shaderType>
@@ -110,8 +107,8 @@
     <passability>Standable</passability>
     <blockWind>true</blockWind>
     <castEdgeShadows>true</castEdgeShadows>
-    <scatterableOnMapGen>false</scatterableOnMapGen>
-    <fillPercent>1</fillPercent>
+	<scatterableOnMapGen>false</scatterableOnMapGen>
+	<fillPercent>1</fillPercent>
     <blockLight>true</blockLight>
     <statBases>
       <MaxHitPoints>500</MaxHitPoints>
@@ -136,19 +133,18 @@
       <li Class="CompProperties_Power">
         <compClass>CompPowerTrader</compClass>
         <basePowerConsumption>750</basePowerConsumption>
+        
       </li>
       <li Class="CompProperties_Flickable"/>
       <li Class="CompProperties_Breakdownable"/>
-      <li>
-        <compClass>ProjectRimFactory.Common.CompPRFHelp</compClass>
-      </li>
+      <li><compClass>ProjectRimFactory.Common.CompPRFHelp</compClass></li>
     </comps>
     <rotatable>true</rotatable>
     <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
     <drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
-    <designationCategory>Industrial</designationCategory>
+    <designationCategory>Automation</designationCategory>
     <building>
-      <ai_chillDestination>false</ai_chillDestination>
+	  <ai_chillDestination>false</ai_chillDestination>
       <fixedStorageSettings>
         <filter>
           <categories>
@@ -171,13 +167,9 @@
     <inspectorTabs>
       <li>ITab_Storage</li>
     </inspectorTabs>
-    <researchPrerequisites>
-      <li>AnimalStations</li>
-    </researchPrerequisites>
+    <researchPrerequisites><li>AnimalStations</li></researchPrerequisites>
     <surfaceType>Item</surfaceType>
   </ThingDef>
-
-
   <ThingDef>
     <category>Building</category>
     <thingClass>ProjectRimFactory.AnimalStation.Building_GenericBodyResourceGatherer</thingClass>
@@ -190,7 +182,7 @@
     <defName>GenericAnimalHarvester</defName>
     <label>generic animal harvester</label>
     <graphicData>
-      <texPath>Farm/Harvester</texPath>
+      <texPath>Milker</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(2,2)</drawSize>
       <shaderType>CutoutComplex</shaderType>
@@ -199,8 +191,8 @@
     <passability>Standable</passability>
     <blockWind>true</blockWind>
     <castEdgeShadows>true</castEdgeShadows>
-    <scatterableOnMapGen>false</scatterableOnMapGen>
-    <fillPercent>1</fillPercent>
+	<scatterableOnMapGen>false</scatterableOnMapGen>
+	<fillPercent>1</fillPercent>
     <blockLight>true</blockLight>
     <statBases>
       <MaxHitPoints>500</MaxHitPoints>
@@ -225,19 +217,18 @@
       <li Class="CompProperties_Power">
         <compClass>CompPowerTrader</compClass>
         <basePowerConsumption>750</basePowerConsumption>
+        
       </li>
       <li Class="CompProperties_Flickable"/>
       <li Class="CompProperties_Breakdownable"/>
-      <li>
-        <compClass>ProjectRimFactory.Common.CompPRFHelp</compClass>
-      </li>
+      <li><compClass>ProjectRimFactory.Common.CompPRFHelp</compClass></li>
     </comps>
     <rotatable>true</rotatable>
     <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
     <drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
-    <designationCategory>Industrial</designationCategory>
+    <designationCategory>Automation</designationCategory>
     <building>
-      <ai_chillDestination>false</ai_chillDestination>
+	  <ai_chillDestination>false</ai_chillDestination>
       <fixedStorageSettings>
         <filter>
           <categories>
@@ -260,9 +251,7 @@
     <inspectorTabs>
       <li>ITab_Storage</li>
     </inspectorTabs>
-    <researchPrerequisites>
-      <li>AnimalStations</li>
-    </researchPrerequisites>
+    <researchPrerequisites><li>AnimalStations</li></researchPrerequisites>
     <surfaceType>Item</surfaceType>
   </ThingDef>
 </Defs>

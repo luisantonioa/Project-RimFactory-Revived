@@ -5,7 +5,6 @@
     <label>automation</label>
     <parent>Buildings</parent>
   </ThingCategoryDef>
-
   <ThingCategoryDef>
     <defName>CorpsesDrone</defName>
     <label>drone corpses</label>
