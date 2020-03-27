@@ -1,4 +1,4 @@
-# Project RimFactory
+# Project RimFactory INITAL PAGE
 
 This is an extensive mod for RimWorld that adds many buildings that automate crafting, farming and animal handling.
 
